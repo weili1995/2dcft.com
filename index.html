@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0B1026">
+<title>2dCFT</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs%3E%3CradialGradient id='g'%3E%3Cstop offset='0' stop-color='%23FFE14D'/%3E%3Cstop offset='1' stop-color='%23FFE14D' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='512' height='512' rx='112' fill='%230B1026'/%3E%3Ccircle cx='242' cy='257' r='80' fill='url(%23g)'/%3E%3Cg fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='%23ffe14d' stroke-width='16' d='M256.3 269.2L257.7 270.4M257.7 270.4L259.3 271.7M259.3 271.7L261.0 273.2M246.6 275.2L247.0 277.0M247.0 277.0L247.5 279.0M247.5 279.0L248.0 281.2M235.2 274.3L234.5 276.1M234.5 276.1L233.7 278.0M233.7 278.0L232.8 280.0M226.4 267.0L224.9 268.0M224.9 268.0L223.1 269.0M223.1 269.0L221.2 270.2M223.7 255.9L221.8 255.8M221.8 255.8L219.8 255.6M219.8 255.6L217.5 255.5M227.9 245.3L226.5 244.1M226.5 244.1L224.9 242.8M224.9 242.8L223.2 241.3M237.7 239.2L237.2 237.4M237.2 237.4L236.7 235.4M236.7 235.4L236.1 233.2M249.1 240.0L249.8 238.2M249.8 238.2L250.6 236.3M250.6 236.3L251.5 234.2M257.9 247.4L259.5 246.4M259.5 246.4L261.3 245.3M261.3 245.3L263.2 244.1M260.7 258.6L262.5 258.7M262.5 258.7L264.6 258.8M264.6 258.8L266.9 259.0'/%3E%3Cpath stroke='%23ffb32b' stroke-width='18' d='M270.4 257.3L270.2 259.7L269.9 262.2L269.4 264.6L268.6 266.9L267.7 269.2L266.5 271.4L265.2 273.4L263.7 275.4L262.0 277.2L260.2 278.8L258.2 280.3L256.2 281.6L254.0 282.7L251.7 283.7L249.4 284.4L247.0 284.9L244.5 285.2L242.1 285.3L239.6 285.2L237.2 284.9L234.8 284.3L232.5 283.6L230.3 282.6L228.1 281.5L226.0 280.2L224.1 278.7L222.3 277.0L220.6 275.2L219.2 273.3L217.8 271.2L216.7 269.1L215.8 266.8L215.0 264.5L214.5 262.1L214.2 259.7L214.1 257.3L214.1 254.8L214.5 252.4L215.0 250.0L215.7 247.7L216.6 245.4L217.7 243.2L219.0 241.1L220.5 239.2L222.2 237.3L224.0 235.7L225.9 234.2L228.0 232.8L230.2 231.7L232.4 230.7L234.8 230.0L237.2 229.4L239.6 229.1L242.1 229.0L244.6 229.1L247.0 229.4L249.4 229.9L251.8 230.6L254.1 231.6L256.3 232.7L258.3 234.1L260.3 235.6L262.1 237.2L263.8 239.1L265.3 241.0L266.6 243.1L267.8 245.3L268.7 247.6L269.4 249.9L270.0 252.3L270.3 254.8ZM261.0 273.2L262.9 274.8M262.9 274.8L265.0 276.6M265.0 276.6L267.3 278.5M267.3 278.5L269.8 280.7M269.8 280.7L272.6 283.1M272.6 283.1L275.7 285.7M275.7 285.7L279.0 288.6M248.0 281.2L248.6 283.6M248.6 283.6L249.3 286.3M249.3 286.3L250.0 289.2M250.0 289.2L250.7 292.4M250.7 292.4L251.6 295.9M251.6 295.9L252.5 299.8M252.5 299.8L253.6 304.1M232.8 280.0L231.9 282.3M231.9 282.3L230.9 284.9M230.9 284.9L229.7 287.6M229.7 287.6L228.5 290.7M228.5 290.7L227.1 294.1M227.1 294.1L225.6 297.7M225.6 297.7L223.9 301.8M221.2 270.2L219.1 271.5M219.1 271.5L216.8 273.0M216.8 273.0L214.3 274.6M214.3 274.6L211.5 276.3M211.5 276.3L208.4 278.2M208.4 278.2L205.0 280.3M205.0 280.3L201.3 282.7M217.5 255.5L215.0 255.3M215.0 255.3L212.3 255.1M212.3 255.1L209.3 254.9M209.3 254.9L206.0 254.7M206.0 254.7L202.4 254.5M202.4 254.5L198.4 254.2M198.4 254.2L194.0 254.0M223.2 241.3L221.3 239.7M221.3 239.7L219.2 238.0M219.2 238.0L216.8 236.1M216.8 236.1L214.3 233.9M214.3 233.9L211.5 231.6M211.5 231.6L208.4 229.0M208.4 229.0L204.9 226.2M236.1 233.2L235.5 230.7M235.5 230.7L234.9 228.1M234.9 228.1L234.1 225.1M234.1 225.1L233.3 221.9M233.3 221.9L232.4 218.3M232.4 218.3L231.4 214.4M231.4 214.4L230.3 210.1M251.5 234.2L252.4 231.9M252.4 231.9L253.4 229.3M253.4 229.3L254.6 226.5M254.6 226.5L255.8 223.4M255.8 223.4L257.2 220.0M257.2 220.0L258.7 216.2M258.7 216.2L260.4 212.1M263.2 244.1L265.3 242.8M265.3 242.8L267.7 241.3M267.7 241.3L270.3 239.7M270.3 239.7L273.1 238.0M273.1 238.0L276.2 236.1M276.2 236.1L279.7 233.9M279.7 233.9L283.5 231.6M266.9 259.0L269.3 259.2M269.3 259.2L272.1 259.4M272.1 259.4L275.1 259.6M275.1 259.6L278.4 259.9M278.4 259.9L282.1 260.2M282.1 260.2L286.1 260.5M286.1 260.5L290.6 260.9'/%3E%3Cpath stroke='%23ff833d' stroke-width='20' d='M295.1 257.4L294.9 262.0L294.2 266.6L293.2 271.1L291.8 275.5L290.0 279.8L287.8 283.9L285.3 287.7L282.4 291.3L279.3 294.7L275.8 297.8L272.2 300.5L268.3 303.0L264.2 305.0L259.9 306.8L255.6 308.1L251.1 309.1L246.5 309.6L242.0 309.8L237.4 309.6L232.8 308.9L228.4 307.9L224.0 306.5L219.8 304.8L215.8 302.6L212.0 300.2L208.4 297.4L205.0 294.3L201.9 290.9L199.2 287.3L196.7 283.5L194.6 279.4L192.9 275.2L191.5 270.9L190.5 266.5L189.9 262.0L189.6 257.4L189.8 252.9L190.3 248.3L191.3 243.9L192.6 239.5L194.3 235.2L196.3 231.1L198.7 227.2L201.5 223.5L204.6 220.1L207.9 216.9L211.6 214.1L215.4 211.5L219.5 209.4L223.8 207.5L228.2 206.1L232.7 205.0L237.3 204.4L241.9 204.2L246.6 204.3L251.2 204.9L255.8 205.9L260.2 207.3L264.5 209.0L268.7 211.2L272.6 213.7L276.3 216.6L279.7 219.7L282.9 223.2L285.7 226.9L288.1 230.8L290.3 234.9L292.0 239.2L293.4 243.6L294.4 248.2L294.9 252.8ZM279.0 288.6L282.7 291.7M282.7 291.7L286.8 295.3M286.8 295.3L291.2 299.1M291.2 299.1L296.1 303.4M253.6 304.1L254.7 308.8M254.7 308.8L255.9 314.0M255.9 314.0L257.3 319.8M257.3 319.8L258.8 326.0M223.9 301.8L222.1 306.3M222.1 306.3L220.0 311.2M220.0 311.2L217.8 316.6M217.8 316.6L215.3 322.5M201.3 282.7L197.2 285.2M197.2 285.2L192.7 288.0M192.7 288.0L187.8 291.1M187.8 291.1L182.3 294.5M194.0 254.0L189.2 253.7M189.2 253.7L183.9 253.3M183.9 253.3L178.1 253.0M178.1 253.0L171.7 252.6M204.9 226.2L201.2 223.1M201.2 223.1L197.0 219.7M197.0 219.7L192.4 216.0M192.4 216.0L187.3 211.9M230.3 210.1L229.0 205.3M229.0 205.3L227.7 200.1M227.7 200.1L226.2 194.4M226.2 194.4L224.5 188.0M260.4 212.1L262.3 207.5M262.3 207.5L264.3 202.4M264.3 202.4L266.5 196.9M266.5 196.9L269.0 190.7M283.5 231.6L287.7 229.0M287.7 229.0L292.3 226.2M292.3 226.2L297.4 223.1M297.4 223.1L302.9 219.7M290.6 260.9L295.5 261.2M295.5 261.2L300.8 261.7M300.8 261.7L306.8 262.1M306.8 262.1L313.3 262.6'/%3E%3Cpath stroke='%23ff5179' stroke-width='21' d='M296.1 303.4L301.5 308.1M301.5 308.1L307.3 313.3M307.3 313.3L313.7 319.0M258.8 326.0L260.5 333.0M260.5 333.0L262.4 340.6M262.4 340.6L264.5 349.0M215.3 322.5L212.5 329.1M212.5 329.1L209.5 336.2M209.5 336.2L206.1 344.1M182.3 294.5L176.3 298.2M176.3 298.2L169.8 302.2M169.8 302.2L162.5 306.7M171.7 252.6L164.8 252.2M164.8 252.2L157.1 251.8M157.1 251.8L148.7 251.4M187.3 211.9L181.7 207.4M181.7 207.4L175.5 202.4M175.5 202.4L168.6 196.9M224.5 188.0L222.7 181.1M222.7 181.1L220.7 173.4M220.7 173.4L218.5 165.1M269.0 190.7L271.7 183.9M271.7 183.9L274.8 176.3M274.8 176.3L278.1 167.9M302.9 219.7L309.1 216.0M309.1 216.0L315.8 211.9M315.8 211.9L323.2 207.6M313.3 262.6L320.6 263.2M320.6 263.2L328.6 263.7M328.6 263.7L337.4 264.3'/%3E%3Cpath stroke='%23dd46bc' stroke-width='23' d='M341.9 257.3L341.7 266.2L340.5 275.1L338.5 283.9L335.6 292.4L331.9 300.5L327.4 308.1L322.4 315.2L316.9 321.7L310.9 327.7L304.6 333.2L297.9 338.1L290.8 342.6L283.4 346.5L275.5 349.9L267.4 352.5L258.9 354.5L250.3 355.7L241.5 356.0L232.8 355.5L224.2 354.1L215.9 352.0L207.8 349.2L200.0 345.8L192.7 341.7L185.6 337.1L179.0 332.0L172.8 326.3L167.1 320.0L161.9 313.3L157.4 306.1L153.5 298.6L150.3 290.7L147.8 282.7L146.0 274.5L145.0 266.2L144.6 257.9L144.8 249.7L145.6 241.5L147.1 233.3L149.3 225.1L152.1 217.1L155.7 209.2L160.0 201.6L165.1 194.4L170.9 187.7L177.4 181.6L184.4 176.1L191.8 171.4L199.6 167.4L207.5 164.2L215.7 161.5L224.0 159.6L232.4 158.2L241.0 157.6L249.7 157.6L258.5 158.3L267.4 159.9L276.1 162.4L284.6 165.8L292.7 170.1L300.3 175.2L307.2 180.9L313.5 187.2L319.1 193.9L324.1 201.0L328.4 208.3L332.1 215.8L335.3 223.6L337.9 231.6L339.9 239.9L341.3 248.5ZM313.7 319.0L320.6 325.4M320.6 325.4L327.9 332.5M327.9 332.5L335.6 340.4M264.5 349.0L266.9 358.2M266.9 358.2L269.7 368.5M269.7 368.5L273.0 379.8M206.1 344.1L202.4 352.7M202.4 352.7L198.2 362.0M198.2 362.0L193.4 372.1M162.5 306.7L154.5 311.7M154.5 311.7L145.7 317.2M145.7 317.2L135.9 323.4M148.7 251.4L139.6 250.9M139.6 250.9L129.8 250.4M129.8 250.4L119.2 249.8M168.6 196.9L160.9 190.8M160.9 190.8L152.2 184.1M152.2 184.1L142.3 176.6M218.5 165.1L216.2 156.0M216.2 156.0L213.7 146.1M213.7 146.1L211.0 135.5M278.1 167.9L281.8 158.4M281.8 158.4L285.8 147.8M285.8 147.8L290.3 135.6M323.2 207.6L331.4 202.9M331.4 202.9L340.2 198.0M340.2 198.0L349.8 193.0M337.4 264.3L347.3 264.9M347.3 264.9L358.4 265.3M358.4 265.3L370.9 265.6'/%3E%3Cpath stroke='%23ae46ed' stroke-width='25' d='M335.6 340.4L343.5 349.1M343.5 349.1L351.0 358.9M273.0 379.8L277.2 392.5M277.2 392.5L282.7 406.7M193.4 372.1L188.0 382.9M188.0 382.9L181.6 394.1M135.9 323.4L125.0 330.4M125.0 330.4L112.7 338.7M119.2 249.8L108.1 249.2M108.1 249.2L96.6 248.3M142.3 176.6L130.8 168.2M130.8 168.2L117.1 158.6M211.0 135.5L208.5 124.3M208.5 124.3L206.2 112.8M290.3 135.6L295.2 121.4M295.2 121.4L300.4 104.4M349.8 193.0L360.0 188.2M360.0 188.2L370.7 184.0M370.9 265.6L385.2 265.4M385.2 265.4L402.1 264.3'/%3E%3Cpath stroke='%236a58fc' stroke-width='26' d='M351.0 358.9L357.5 369.8M282.7 406.7L290.3 423.0M181.6 394.1L174.2 405.3M112.7 338.7L98.6 348.8M96.6 248.3L85.4 247.1M117.1 158.6L100.2 147.5M206.2 112.8L204.8 101.7M300.4 104.4L306.0 83.2M370.7 184.0L381.5 181.3M402.1 264.3L422.4 261.6'/%3E%3Cpath stroke='%233b88f6' stroke-width='28' d='M357.5 369.8L361.3 381.9M290.3 423.0L301.5 442.0M174.2 405.3L165.3 415.5M98.6 348.8L82.1 361.8M85.4 247.1L75.4 245.2M100.2 147.5L78.1 134.4M204.8 101.7L204.9 91.9M306.0 83.2L311.6 55.3M381.5 181.3L391.7 181.3M422.4 261.6L447.9 255.6'/%3E%3Cpath stroke='%2312C2E9' stroke-width='30' d='M439.7 235.9L446.0 249.9L450.3 266.0L451.8 283.4L450.1 301.2L445.1 318.6L437.4 334.5L427.4 348.2L416.0 359.3L404.0 367.8L392.4 373.7L381.6 377.7L372.0 380.1L363.9 381.5L357.2 382.5L351.9 383.5L347.8 385.0L344.5 387.1L341.7 390.3L339.2 394.5L336.5 399.9L333.1 406.5L328.7 414.0L322.8 422.3L315.2 430.9L305.6 439.2L294.0 446.6L280.8 452.5L266.4 456.4L251.3 458.0L236.3 457.2L222.0 454.3L209.0 449.6L197.5 443.6L187.7 437.0L179.6 430.1L172.8 423.5L167.2 417.5L162.2 412.2L157.6 407.8L153.0 404.1L148.1 401.1L142.6 398.5L136.4 396.0L129.3 393.4L121.3 390.2L112.6 386.1L103.5 380.7L94.2 373.9L85.2 365.4L77.1 355.3L70.3 344.0L65.1 331.7L61.8 319.1L60.3 306.5L60.5 294.6L62.1 283.7L64.5 274.0L67.4 265.6L70.3 258.4L72.9 252.3L74.9 247.0L76.1 242.2L76.4 237.5L75.9 232.6L74.5 227.1L72.6 220.7L70.3 213.2L68.0 204.2L66.3 193.7L65.7 181.6L66.7 168.3L69.8 154.1L75.4 139.7L83.5 125.8L94.0 113.2L106.5 102.6L120.1 94.3L134.3 88.7L148.1 85.5L161.0 84.4L172.5 85.0L182.5 86.5L190.8 88.4L197.5 90.3L203.1 91.6L207.7 92.2L211.7 91.7L215.5 90.0L219.5 87.2L224.3 83.2L230.2 78.1L237.6 72.5L247.0 66.6L258.5 61.1L272.2 56.7L287.9 54.3L305.1 54.4L322.8 57.8L340.1 64.4L356.1 74.1L369.8 86.4L380.6 100.3L388.3 114.9L393.1 129.3L395.4 142.7L395.8 154.6L395.0 164.6L393.6 172.8L392.1 179.3L391.1 184.3L390.9 188.1L391.7 191.1L393.8 193.6L397.3 196.1L402.2 199.0L408.4 202.7L415.7 207.9L423.7 215.0L432.0 224.2Z'/%3E%3C/g%3E%3C/svg%3E" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+/* Wei's animated 2dCFT.com lockup (src/gate/logo.js and the rules marked "logo") with the password form under the motto. */
+:root { color-scheme: dark; --bg: #0B1026; --ink: #FFFFFF; --soft: #B8BFDC; --com: #9AA3C7; --accent: #12C2E9; --bad: #FF9DB0 }
+* { box-sizing: border-box; min-width: 0 }
+/* logo */
+body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink); font-family: 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; overflow-x: clip; display: grid; grid-template: 1fr auto / 100%; place-items: center }
+.lockup { display: flex; align-items: center; justify-content: center; gap: clamp(24px, 5vw, 64px); padding: clamp(28px, 5vw, 72px) max(5vw, 16px) }
+.mark { position: relative; flex: none; width: clamp(200px, 28vw, 340px); aspect-ratio: 1 / 1; border-radius: 50%; cursor: pointer }
+.mark canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block }
+.mark:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px }
+.word { display: flex; flex-direction: column; gap: clamp(8px, 1.2vw, 16px) }
+h1 { margin: 0; display: flex; align-items: baseline; line-height: 1; letter-spacing: -0.035em; font-weight: 700; font-size: clamp(64px, 10.5vw, 150px); white-space: nowrap }
+h1 .d { font-weight: 500; color: var(--accent) }
+h1 .com { font-size: .373em; font-weight: 500; color: var(--com); margin-left: .1em; letter-spacing: -.01em }
+.motto { margin: 0; padding-left: .35em; font-size: clamp(15px, 1.265vw, 18.2px); /* one line, as wide as the name */ line-height: 1.35; color: var(--soft); letter-spacing: .01em; text-wrap: balance }
+.ctl { position: fixed; right: 16px; bottom: 16px; min-width: 44px; height: 44px; padding: 0 16px; border-radius: 22px; border: 1px solid rgba(154, 163, 199, .45); background: rgba(11, 16, 38, .7); color: var(--soft); font: 500 14px/1 'Space Grotesk', system-ui, sans-serif; cursor: pointer }
+.ctl:hover { color: var(--ink); border-color: var(--accent) }
+.ctl:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px }
+/* password form */
+form { width: min(440px, 100%); margin: clamp(12px, 2vw, 28px) 0 0; padding-left: .35em }
+label { display: block; font-size: 15px; line-height: 1.4; color: var(--soft); margin-bottom: 10px; text-wrap: balance }
+.row { display: flex; gap: 10px }
+input[type="password"] { flex: 1; height: 46px; padding: 0 18px; border-radius: 23px; border: 1px solid rgba(154, 163, 199, .55); background: rgba(255, 255, 255, .06); color: var(--ink); font: 400 16px/1 'Space Grotesk', system-ui, sans-serif }
+input[type="password"]:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-color: transparent }
+#go { height: 46px; padding: 0 24px; border-radius: 23px; border: 0; background: var(--accent); color: #0B1026; font: 700 16px/1 'Space Grotesk', system-ui, sans-serif; cursor: pointer }
+#go:hover { background: #5AD6F0 }
+#go:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px }
+#go:disabled, input:disabled { opacity: .55; cursor: default }
+.remember { display: flex; align-items: center; gap: 9px; width: fit-content; margin: 12px 0 0 4px; font-size: 14px; color: var(--soft); cursor: pointer; user-select: none }
+.remember input { width: 17px; height: 17px; margin: 0; accent-color: var(--accent); cursor: pointer }
+.remember input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.remember:hover { color: var(--ink) }
+#msg { min-height: 1.5em; margin: 10px 0 0; font-size: 15px; line-height: 1.5; color: var(--soft) }
+#msg.bad { color: var(--bad) }
+/* partner line, level with the animation button */
+.partner { margin: 0; padding: 0 16px 16px; min-height: 60px; display: flex; align-items: center; color: var(--com); font-size: 14px; line-height: 1.4 }
+.partner a { color: var(--accent); text-decoration: none }
+.partner a:hover { text-decoration: underline; text-underline-offset: 3px }
+.partner a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px }
+@media (max-width: 900px) { .partner { justify-self: start } }
+@media (max-width: 1050px) { .motto { font-size: 16px; max-width: 18em } }
+@media (max-width: 700px) {
+  .lockup { flex-direction: column; text-align: center; width: 100% }
+  .word { align-items: center; width: 100% }
+  .motto, form { padding-left: 0 }
+  .remember { margin-inline: auto }
+  h1 { font-size: clamp(48px, 16vw, 96px) }
+  .partner { justify-self: center; text-align: center; text-wrap: balance; padding-bottom: 76px }
+}
+</style>
+</head>
+<body>
+<main class="lockup">
+  <div class="mark" id="mark" tabindex="0" role="img" aria-label="2dCFT logo: a log-polar grid flowing outward from the origin and bent into changing flower shapes by Virasoro conformal maps, coloured from gold at the centre to cyan at the rim">
+    <canvas id="rrl" aria-hidden="true"></canvas>
+  </div>
+  <div class="word">
+    <h1><span class="d">2d</span>CFT<span class="com">.com</span></h1>
+    <p class="motto">Interactively solving conformal field theory in two dimensions</p>
+    <form id="f">
+      <input type="text" name="username" value="2dcft" autocomplete="username" hidden>
+      <label for="pw">This site is private. Enter the password to continue.</label>
+      <div class="row"><input id="pw" type="password" autocomplete="current-password" autofocus required><button id="go">Open</button></div>
+      <label class="remember" title="Untick on a shared computer: this browser then forgets the password after an hour without use."><input id="keep" type="checkbox" checked> Remember on this device</label>
+      <p id="msg" role="status"></p>
+    </form>
+    <noscript><p class="motto">This page needs JavaScript to unlock the site.</p></noscript>
+  </div>
+</main>
+<p class="partner"><span>If you are also interested in 3d CFT, please see our partner <a href="https://3dcft.com/" rel="noopener">@3dcft.com</a></span></p>
+<button class="ctl" id="toggle" type="button" aria-pressed="false">Pause animation</button>
+<script>
+(async () => {
+  const CFG = {"salt":"cF/A8X/y5Wwl6Lk+g9i5zQ==","iter":1000000,"check":"2gzHboy1l8IM9ye0pHoRcDgSqzqlcV8r4IyBEXt+"};
+  const $ = (id) => document.getElementById(id), msg = (t, bad) => { $("msg").textContent = t; $("msg").className = bad ? "bad" : ""; };
+  const stop = (t) => { msg(t, true); $("pw").disabled = $("go").disabled = true; };
+  const BASE = location.hostname.endsWith(".github.io") ? "/" + location.pathname.split("/")[1] + "/" : "/";
+  const enc = new TextEncoder(), un64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+  if (!isSecureContext) {
+    if (location.protocol === "http:") location.replace("https:" + location.href.slice(5));
+    return stop("This page only works over https.");
+  }
+  if (!("serviceWorker" in navigator) || !window.indexedDB || !window.DecompressionStream) return stop("This browser cannot open the site. Try a current Chrome, Safari, Edge or Firefox, outside private browsing.");
+  const db = () => new Promise((ok, no) => {
+    const r = indexedDB.open("2dcft", 1);
+    r.onupgradeneeded = () => r.result.createObjectStore("k");
+    r.onsuccess = () => ok(r.result);
+    r.onerror = () => no(r.error);
+  });
+  const idb = async (mode, f) => {
+    const d = await db();
+    return new Promise((ok, no) => {
+      const t = d.transaction("k", mode), q = f(t.objectStore("k"));
+      t.oncomplete = () => { d.close(); ok(q.result); };
+      t.onerror = () => { d.close(); no(t.error); };
+    });
+  };
+  const check = async (aes) => {
+    const b = un64(CFG.check);
+    try { await crypto.subtle.decrypt({ name: "AES-GCM", iv: b.subarray(0, 12), additionalData: enc.encode("\u0000check") }, aes, b.subarray(12)); return true; } catch { return false; }
+  };
+  const HOUR = 3600000;
+  const enter = async (keep) => {
+    // ask the browser to keep the key, so this device stays unlocked (Firefox would ask the reader first: skip it there)
+    try { if (keep && navigator.storage && navigator.storage.persist && !/Firefox\//.test(navigator.userAgent)) navigator.storage.persist().catch(() => {}); } catch {}
+    const reg = await navigator.serviceWorker.register(BASE + "sw.js", { scope: BASE });
+    await navigator.serviceWorker.ready;
+    // give up only if several attempts follow each other within seconds
+    const now = Date.now();
+    let tries = [];
+    try { tries = [].concat(JSON.parse(sessionStorage.getItem("tries") || "[]")).filter((t) => now - t < 15000); } catch {}
+    if (tries.length > 2) { sessionStorage.removeItem("tries"); return msg("The site did not open. Reload the page, without holding Shift.", true); }
+    sessionStorage.setItem("tries", JSON.stringify([...tries, now]));
+    if (reg.active && reg.active.state !== "activated") await new Promise((ok) => reg.active.addEventListener("statechange", ok, { once: true }));
+    location.reload();
+  };
+  try {
+    const keys = await idb("readonly", (s) => s.get("keys"));
+    // "Remember on this device" unticked: the key lapses after an hour without opening a page (the service worker checks too)
+    const fresh = keys && (!keys.idle || Date.now() - (keys.seen || 0) < keys.idle);
+    if (fresh && (await check(keys.aes))) { msg("Opening"); return enter(!keys.idle); }
+    if (keys) await idb("readwrite", (s) => s.delete("keys"));
+  } catch { return stop("This browser does not let the site store its key. Private browsing may be on."); }
+  $("f").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    $("go").disabled = true;
+    msg("Checking, this takes a moment");
+    await new Promise((ok) => setTimeout(ok, 30));
+    try {
+      const base = await crypto.subtle.importKey("raw", enc.encode($("pw").value.trim().normalize("NFC")), "PBKDF2", false, ["deriveBits"]);
+      const bits = await crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: un64(CFG.salt), iterations: CFG.iter }, base, 512);
+      const aes = await crypto.subtle.importKey("raw", bits.slice(0, 32), "AES-GCM", false, ["decrypt"]);
+      const mac = await crypto.subtle.importKey("raw", bits.slice(32), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+      if (!(await check(aes))) { msg("That password did not work.", true); $("go").disabled = false; $("pw").select(); return; }
+      const keep = $("keep").checked;
+      await idb("readwrite", (s) => s.put({ aes, mac, idle: keep ? 0 : HOUR, seen: Date.now() }, "keys"));
+      await enter(keep);
+    } catch (err) { msg("Something went wrong: " + err.message, true); $("go").disabled = false; }
+  });
+})();
+</script>
+<script>
+{
+
+// ---------------------------------------------------------------- radial quantisation under Virasoro, live
+// The unit disc |z| <= 1 carries the log-polar grid: circles |z| = e^u (radial time u) and rays arg z = theta, spaced
+// equally in u and theta so every cell is a conformal square.  Each frame:
+//   L0 + Lbar0 (dilatation): the circles flow outward in u and re-enter at the centre;
+//   L0 - Lbar0 (rotation):   the rays turn slowly;
+//   L_n, n >= 1:             the plane is mapped by f(z) = z exp(sum_n eps_n z^n), the finite form of the positive modes
+//                            (they fix the origin, as L_n|h> = 0 does).  sum_n n|eps_n| < 1 keeps f one-to-one on the disc.
+const S = 512, C = 256, R = 236, TPOW = 1.0;
+const M = 48, DU = 2 * Math.PI / M;                  // rays, and circle spacing in u: conformal squares
+const UMIN = Math.log(0.03), SPAN = Math.ceil(-UMIN / DU) * DU;
+const NC = Math.round(SPAN / DU);
+const NMODE = 5, BUDGET = 0.72;                      // sum_n n|eps_n| = BUDGET
+const FLOW = 0.11, SPIN = 0.035;                     // e-folds per second, radians per second
+const STOPS = [[0.00, '#FFE14D'], [0.18, '#FF9F1C'], [0.38, '#FF4F7B'], [0.58, '#C640E8'], [0.78, '#5A5CFF'], [1.00, '#12C2E9']];
+const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+function grad(t) {
+  t = Math.min(Math.max(t, 0), 1);
+  for (let k = 1; k < STOPS.length; k++) {
+    if (t <= STOPS[k][0]) {
+      const [a, ca] = STOPS[k - 1], [b, cb] = STOPS[k], u = (t - a) / (b - a), x = hex(ca), y = hex(cb);
+      return 'rgb(' + x.map((v, i) => Math.round(v + (y[i] - v) * u)).join(',') + ')';
+    }
+  }
+  return STOPS[STOPS.length - 1][1];
+}
+const NB = 64, BAND = Array.from({ length: NB + 1 }, (_, b) => grad(b / NB));
+const band = r => Math.min(NB, Math.max(0, Math.floor(Math.pow(r, TPOW) * NB)));   // r = |z| of the pre-image
+
+// mode amplitudes: a slow spotlight moves through n = 1..5 and back; phases turn, alternate senses
+const epsRe = new Float64Array(NMODE + 1), epsIm = new Float64Array(NMODE + 1);
+function modes(t) {
+  const ph = 3.3 + 1.7 * Math.sin(2 * Math.PI * t / 46 - Math.PI / 2);   // 1.6 -> 5 -> 1.6 over 46 s
+  let wsum = 0;
+  const w = [];
+  for (let n = 1; n <= NMODE; n++) { w[n] = Math.exp(-((ph - n) ** 2) / 0.55) + 0.04; wsum += w[n]; }
+  for (let n = 1; n <= NMODE; n++) {
+    const a = BUDGET * w[n] / wsum / n;
+    const phase = (n % 2 ? 1 : -1) * (0.22 + 0.05 * n) * t + 1.7 * n;
+    epsRe[n] = a * Math.cos(phase); epsIm[n] = a * Math.sin(phase);
+  }
+}
+// f(z) = K z exp(g(z)), g = sum eps_n z^n ; K (a dilatation) keeps the image of the unit circle inside radius 1
+let K = 1;
+function map(x, y, out) {
+  let pr = x, pi = y, gr = 0, gi = 0;               // p = z^n
+  for (let n = 1; n <= NMODE; n++) {
+    gr += epsRe[n] * pr - epsIm[n] * pi; gi += epsRe[n] * pi + epsIm[n] * pr;
+    const nr = pr * x - pi * y; pi = pr * y + pi * x; pr = nr;
+  }
+  const e = Math.exp(gr), cr = e * Math.cos(gi), ci = e * Math.sin(gi);
+  out[0] = C + R * K * (x * cr - y * ci); out[1] = C + R * K * (x * ci + y * cr);
+}
+
+const cv = document.getElementById('rrl'), ctx = cv.getContext('2d');
+const q = [0, 0];
+let T = 0;
+function draw() {
+  const W = cv.width, s = W / S;
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  ctx.clearRect(0, 0, W, W);
+  ctx.setTransform(s, 0, 0, s, 0, 0);
+  modes(T);
+  K = 1;
+  let mr = 0;
+  for (let i = 0; i < 180; i++) {
+    const th = 2 * Math.PI * i / 180;
+    map(Math.cos(th), Math.sin(th), q);
+    mr = Math.max(mr, Math.hypot(q[0] - C, q[1] - C) / R);
+  }
+  K = 1 / mr;
+  const shift = (FLOW * T) % DU, rot = SPIN * T;
+  const lines = Array.from({ length: NB + 1 }, () => new Path2D());
+  const dots = Array.from({ length: NB + 1 }, () => new Path2D());
+  // circles of constant radial time
+  const NS = 220;
+  for (let k = 0; k <= NC; k++) {
+    const u = UMIN + k * DU + shift;
+    if (u > 0) continue;
+    const r = Math.exp(u), b = band(r), P = lines[b];
+    for (let i = 0; i <= NS; i++) {
+      const th = 2 * Math.PI * i / NS;
+      map(r * Math.cos(th), r * Math.sin(th), q);
+      if (i === 0) P.moveTo(q[0], q[1]); else P.lineTo(q[0], q[1]);
+    }
+    for (let j = 0; j < M; j++) {                    // grid vertices on this circle
+      const th = rot + 2 * Math.PI * j / M;
+      map(r * Math.cos(th), r * Math.sin(th), q);
+      const rr = 0.6 + 2.0 * Math.pow(r, TPOW);
+      dots[b].moveTo(q[0] + rr, q[1]); dots[b].arc(q[0], q[1], rr, 0, 2 * Math.PI);
+    }
+  }
+  // rays of constant angle, coloured along their length
+  const NR = 90;
+  for (let j = 0; j < M; j++) {
+    const th = rot + 2 * Math.PI * j / M, c = Math.cos(th), sn = Math.sin(th);
+    let prev = null;
+    for (let i = 0; i <= NR; i++) {
+      const u = UMIN + (-UMIN) * i / NR, r = Math.exp(u);
+      map(r * c, r * sn, q);
+      const b = band(r);
+      if (prev) { lines[b].moveTo(prev[0], prev[1]); lines[b].lineTo(q[0], q[1]); }
+      prev = [q[0], q[1]];
+    }
+  }
+  // glow at the origin
+  const g = ctx.createRadialGradient(C, C, 0, C, C, 40);
+  g.addColorStop(0, 'rgba(255,225,77,0.95)'); g.addColorStop(1, 'rgba(255,225,77,0)');
+  ctx.fillStyle = g; ctx.beginPath(); ctx.arc(C, C, 40, 0, 2 * Math.PI); ctx.fill();
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.globalAlpha = 0.9;
+  for (let k = 0; k <= NB; k++) {
+    ctx.strokeStyle = BAND[k]; ctx.lineWidth = 0.5 + 1.5 * Math.min(1, (k + 0.5) / NB);
+    ctx.stroke(lines[k]);
+  }
+  ctx.globalAlpha = 1;
+  for (let k = 0; k <= NB; k++) { ctx.fillStyle = BAND[k]; ctx.fill(dots[k]); }
+  // the image of the unit circle: the rim
+  const rim = new Path2D();
+  for (let i = 0; i <= 360; i++) {
+    const th = 2 * Math.PI * i / 360;
+    map(Math.cos(th), Math.sin(th), q);
+    if (i === 0) rim.moveTo(q[0], q[1]); else rim.lineTo(q[0], q[1]);
+  }
+  ctx.strokeStyle = 'rgba(18,194,233,0.85)'; ctx.lineWidth = 2.5; ctx.stroke(rim);
+  ctx.fillStyle = '#FFFFFF'; ctx.beginPath(); ctx.arc(C, C, 4.5, 0, 2 * Math.PI); ctx.fill();
+}
+
+function size() {
+  const w = Math.max(1, Math.round(cv.clientWidth * (window.devicePixelRatio || 1)));
+  if (cv.width !== w) { cv.width = w; cv.height = w; }
+  draw();
+}
+
+let running = true, lastT = 0, raf = 0;
+const btn = document.getElementById('toggle'), mark = document.getElementById('mark');
+function frame(now) {
+  const dt = lastT ? Math.min((now - lastT) / 1000, 0.05) : 0;
+  lastT = now;
+  T += dt;
+  draw();
+  raf = running ? requestAnimationFrame(frame) : 0;
+}
+function setRunning(on) {
+  running = on;
+  btn.textContent = on ? 'Pause animation' : 'Play animation';
+  btn.setAttribute('aria-pressed', on ? 'false' : 'true');
+  if (on && !raf) { lastT = 0; raf = requestAnimationFrame(frame); }
+}
+btn.addEventListener('click', () => setRunning(!running));
+mark.addEventListener('click', () => setRunning(!running));
+mark.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setRunning(!running); } });
+
+T = 11.5;                                           // open near the three-fold flower
+const ro = new ResizeObserver(size);
+ro.observe(cv);
+const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+setRunning(!reduce);
+if (reduce) size();
+}
+</script>
+</body>
+</html>
